@@ -9,7 +9,6 @@ const ButtonRow = (props) => {
   };
 
   const renderButtons = () => {
-    console.log(mode);
     if (mode === "selected") {
       return (
         <Space wrap className="country">
