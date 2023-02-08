@@ -87,7 +87,11 @@ const LayoutCanvas = () => {
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             <div className="buttons">
               <ButtonRow mode={mode} setMode={setMode} />
-              <CountryRow setCountry={setCountry} country={country} />
+              <CountryRow
+                setCountry={setCountry}
+                country={country}
+                mode={mode}
+              />
             </div>
             <div className="separator"></div>
           </Typography>
@@ -126,7 +130,11 @@ const LayoutCanvas = () => {
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             <div className="buttons">
               <ButtonRow mode={mode} setMode={setMode} />
-              <CountryRow setCountry={setCountry} country={country} />
+              <CountryRow
+                setCountry={setCountry}
+                country={country}
+                mode={mode}
+              />
             </div>
             <div className="separator"></div>
           </Typography>
@@ -140,7 +148,11 @@ const LayoutCanvas = () => {
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             <div className="buttons">
               <ButtonRow mode={mode} setMode={setMode} />
-              <CountryRow setCountry={setCountry} country={country} />
+              <CountryRow
+                setCountry={setCountry}
+                country={country}
+                mode={mode}
+              />
             </div>
             <div className="separator"></div>
           </Typography>
@@ -185,7 +197,11 @@ const LayoutCanvas = () => {
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             <div className="buttons">
               <ButtonRow mode={mode} setMode={setMode} />
-              <CountryRow setCountry={setCountry} country={country} />
+              <CountryRow
+                setCountry={setCountry}
+                country={country}
+                mode={mode}
+              />
             </div>
             <div className="separator"></div>
           </Typography>
