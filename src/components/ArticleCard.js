@@ -36,7 +36,7 @@ const ArticleCard = (props) => {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          {data.description.length > 0
+          {data.description
             ? data.description
             : "No description found at this time"}
         </Typography>
