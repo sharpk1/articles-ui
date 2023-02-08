@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  position: fixed; /* or absolute */
+  top: 10%;
+  left: 25%;
 }
 
 .App-logo {
@@ -35,4 +38,66 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.buttons {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px;
+  border-color: blue;
+}
+
+.country {
+  gap: 0px !important;
+}
+
+#root
+  > div
+  > div
+  > div.MuiCardContent-root.css-46bh2p-MuiCardContent-root
+  > p.MuiTypography-root.MuiTypography-body1.MuiTypography-gutterBottom.css-16m3jxf-MuiTypography-root
+  > div
+  > div.ant-space.css-dev-only-do-not-override-ixblex.ant-space-horizontal.ant-space-align-center.country
+  > div:nth-child(2)
+  > button,
+#root
+  > div
+  > div
+  > div.MuiCardContent-root.css-46bh2p-MuiCardContent-root
+  > p.MuiTypography-root.MuiTypography-body1.MuiTypography-gutterBottom.css-16m3jxf-MuiTypography-root
+  > div
+  > div.ant-space.css-dev-only-do-not-override-ixblex.ant-space-horizontal.ant-space-align-center.country
+  > div:nth-child(1)
+  > button {
+  border-radius: 0px;
+}
+
+.separator {
+  border-bottom: 1px solid;
+  margin-top: 14px;
+  border-color: darkgray;
+}
+
+.topNews {
+  display: flex;
+}
+
+.gridContent {
+  margin-top: 10px;
+  max-height: 650px;
+  overflow-y: scroll;
+}
+
+.topNews {
+  margin-top: 15px;
+}
+
+.selectedTopNews {
+  justify-content: center;
+}
+
+#backToList {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
